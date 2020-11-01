@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.clear
+{
+	clear: both;
+}
+
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 20px;
+
+}
+ul li{
+	display:inline-block;
+	margin: 20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px 30px;
+	border: 0.1px solid transparent;
+	font-family: Poppins Semibold;
+}
+
+ul li a:hover{
+	background-color: #00FA9A;
+	transition-delay: 3s;
+	color: #000;
+	transition: 0.6s ease;
+}
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: :1200px;
+	margin:auto;
+}
+
+.title{
+	font-family: "Bebas Neue";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00FA9A;
+	letter-spacing: 10px;
+	font-size: 100px;
+}
+
+.title:hover{
+	font-family: "Bebas Neue";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00FA9A;
+	letter-spacing: 10px;
+	font-size: 110px;
+	text-shadow: 0px 0px 100px #00FA9A;
+	transition: 1s;
+
+}
+
+.button
+{
+	position: absolute;
+	top: 380%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+
+.btn
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: Poppins Semibold;
+}
+
+.btn:hover
+{
+	color: #00FA9A;
+	transition: 0.5s ease;
+}
+
+.title2
+{
+	position: absolute;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Poppins Light;
+	font-size: 15px;
+}
+
+.title3
+{
+	position: absolute;
+	top:65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Poppins Light;
+	font-size: 15px;
+}
+
+.title4
+{
+	position: absolute;
+	top:70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Poppins Light;
+	font-size: 15px;
+}
+
+.whitespacetitle
+{
+	position: absolute;
+	top: 115%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	width: 50%;
+	height: 1px;
+}
+
+
+.pg2
+{
+	background-color: black;
+	width: 100%;
+	height: 2250px;
+}
+
+.info
+{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00FA9A;
+	letter-spacing: 20px;
+	font-family: "Bebas Neue";
+	font-size: 30px;
+}
+
+#AboutMeContent
+{
+	position: absolute;
+	top: 153%;
+	left: 40%;
+	background-color: black;
+	color: white;
+	font-family: Poppins Light;
+	text-align: justify;
+	width: 41%;
+}
+
+#Aboutimage
+{
+	position: absolute;
+	top: 135%;
+	left: 15%;
+	max-height: 400px;
+	float: left;
+}
+
+
+.info2
+{
+	position: absolute;
+	top: 215%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00FA9A;
+	letter-spacing: 20px;
+	font-family: "Bebas Neue";
+	font-size: 30px;
+	margin-bottom: 200px;
+}
+
+#whitespacetitle2
+{
+	position: absolute;
+	top: 215%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	width: 50%;
+	height: 1px;
+}
+
+#skillslist
+{
+	position: absolute;
+	top: 280%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-family: Poppins Light;
+	text-align: left;
+}
+
+.Illustrator {width: 85%; background-color: #d23508; border-radius: 10px; height: 5px;}
+.Photoshop {width: 60%; background-color: #008B8B; border-radius: 10px; height: 5px;}
+.AfterEffects {width: 90%; background-color: #341671; border-radius: 10px; height: 5px;}
+.PremierePro {width: 80%; background-color: #341671; border-radius: 10px; height: 5px;}
+.Webdevelopment {width: 60%; background-color: #00FA9A; border-radius: 10px; height: 5px;}
+.CPlus {width: 70%; background-color: #00FA9A; border-radius: 10px; height: 5px;}
+
+.container {
+  width: 200%;
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.button2{
+	position: absolute;
+	top: 380%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.btn2{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Poppins Semibold;
+	border-radius: 30px;
+
+}
+.btn2:hover{
+	background-color: #00FA9A;
+	color: #000;
+	font-size: 17px;
+	padding: 12px 32px;
+	border-radius: 40px;
+	transition: 0.5s ease;
+}
+
+#contactmeinfo
+{
+	color: white;
+	position: absolute;
+	top: 350%;
+	left: 50%;
+	width: 580px;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: Poppins Light;
+	font-size: 15px;
+}
+
+#contactmeinfo2
+{
+	color: #00FA9A;
+	position: absolute;
+	top: 360%;
+	left: 50%;
+	width: 580px;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: Poppins Light;
+	font-size: 15px;
+}
+
+.copyright
+{
+	position: absolute;
+	top: 390%;
+	left: 43%;
+	max-height: 20px;
+}
+
+.copyrightext
+{
+	font-family: Poppins Light;
+	color: white;
+	font size: 12px;
+	position: absolute;
+	top: 390%;
+	left: 45%;
+}
